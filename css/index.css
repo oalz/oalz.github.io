@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.page-header {
+    background-color: #000000;
+    padding: 1.3rem;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    color: white;
+    align-self: center;
+    margin-left: 1.2rem;
+    margin-top: 15px;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 1.3rem;
+    cursor: pointer;
+    background-color: black;
+}
+
+.nav-bar a:hover {
+    color: #C0C0C0;
+}
+
+
+.nav-bar a.active {
+    background-color: #FF0000;
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-link:hover {
+  color: #C0C0C0;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.footer-name {
+  text-align: left;
+}
+
+.foot-item {
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+}
+
+.foot-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #C0C0C0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-color: white;
+  border-radius: 15px;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.btn-dark {
+  text-decoration: none;
+}
+
+.spacer {
+  margin-bottom: 155px; /* how high is your footer */
+  visibility: hidden;
+}
+
+.py-3, .my-4 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar {
+        display: none;
+        top: 3.7rem;
+        left: 0;
+        width: 100%;
+        background-color: #000000;
+        text-align: center;
+        position: relative;
+        top: 50%;
+    }
+
+    .nav-bar a {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1;
+    }
+
+    #toggle-menu:checked ~ .nav-bar {
+        display: block;
+    }
+
+    .footer {
+      text-align: center;
+}

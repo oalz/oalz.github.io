@@ -1,0 +1,44 @@
+img {
+  width: 300px;
+  height: 400px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+}
+
+#aboutme-text {
+  margin-left: -151px;
+  margin-right: 30px;
+}
+
+#aboutme-title {
+  margin-left: 0px;
+  margin-right: 30px;
+  margin-top: -170px;
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 100px;
+    float: left;
+    display: flex;
+  }
+
+  #aboutme-text {
+    margin-left: -80px;
+  }
+
+  #aboutme-title {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -170px;
+  }
+
+}
