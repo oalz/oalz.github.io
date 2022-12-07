@@ -28,17 +28,17 @@ img {
     margin-top: 10px;
     margin-right: 100px;
     float: left;
-    display: flex;
+    display: none;
   }
 
   #aboutme-text {
-    margin-left: -80px;
+    margin-left: -47px;
   }
 
   #aboutme-title {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: -170px;
+    margin-left: 27px;
+    margin-right: 160px;
+    margin-top: -27px;
   }
 
 }
