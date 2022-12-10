@@ -78,12 +78,48 @@
   color: #C0C0C0;
 }
 
-.button {
+.navbutton {
   background-color: black;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
   padding: 15px;
-  border-color: white;
   border-radius: 15px;
+}
+
+.navbutton:hover {
+  background-color: red;
+  color: white;
+}
+
+.navbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.navbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.navbutton:hover span {
+  padding-right: 25px;
+}
+
+.navbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .h1 {
