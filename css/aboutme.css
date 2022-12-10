@@ -36,6 +36,7 @@ img {
   body {
     background-image: url("/img/picture.png");
     background-size: cover;
+    color: white;
   }
 
   #aboutme-text {
