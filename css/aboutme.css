@@ -23,12 +23,19 @@ img {
 
 @media screen and (max-width: 700px) {
   img {
+    /* Old Code
     width: 250px;
     height: auto;
     margin-top: 10px;
     margin-right: 100px;
     float: left;
+    */
     display: none;
+  }
+  
+  body {
+    background-image: url("/img/picture.png");
+    background-size: cover;
   }
 
   #aboutme-text {
