@@ -36,18 +36,19 @@ img {
   body {
     background-image: url("/img/picture.png");
     background-size: cover;
-    color: white;
   }
 
   #aboutme-text {
     margin-left: -50px;
     margin-right: 27px;
+    color: white;
   }
 
   #aboutme-title {
     margin-left: 27px;
     margin-right: 160px;
     margin-top: -27px;
+    color: white;
   }
 
 }
