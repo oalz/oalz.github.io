@@ -13,6 +13,7 @@ body {
     position: relative;
     background-image: url("/img/indexmobile.jpg");
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 
